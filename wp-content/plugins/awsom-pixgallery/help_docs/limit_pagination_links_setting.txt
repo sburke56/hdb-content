@@ -1,0 +1,7 @@
+AWSOM Pixgallery Limit Pagination Links setting help
+
+The Limit Pagination Links setting allows the admin to limit the number of pagination links that are displayed under the
+thumbnail gallery view to a set number. This is usually required when a gallery has many pages and the number of pagination
+links gets too large for the Wordpress theme to handle. "..." is displayed in whichever direction there are more pages,
+which if clicked advances the gallery to the next set of pages in that direction.
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

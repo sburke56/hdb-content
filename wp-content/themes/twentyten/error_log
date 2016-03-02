@@ -1,0 +1,10 @@
+[29-May-2013 17:35:29] PHP Fatal error:  Call to undefined function  get_header() in /home/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10
+[01-Jun-2014 09:40:15 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/search.php on line 10
+[07-Jul-2015 05:40:19 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10
+[21-Jul-2015 01:41:19 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10
+[07-Sep-2015 21:08:47 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10
+[23-Sep-2015 01:00:36 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10
+[09-Oct-2015 19:45:15 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10
+[14-Oct-2015 18:14:23 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10
+[16-Oct-2015 07:22:54 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10
+[23-Oct-2015 08:37:44 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/viper56/public_html/happydaybakeshop.com/wp-content/themes/twentyten/404.php on line 10

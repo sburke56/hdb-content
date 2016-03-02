@@ -1,0 +1,124 @@
+AWSOM mod Change Log
+Written by Harknell
+
+4.7.0	03/25/2011	Add RSS function to plugin (thank you sbilbeau for the initial code concept).
+			Fixed and added custom breadcrumb naming for sub folders.
+			Added New Language file definitions, with error detection for out of date customization folder versions.
+			Added New Plugin Option to "fix" potential conflict situation with some other post/page scanning plugins (reported for YARPP).
+			Added Better form notifications of elements that are *required* when adding Image/Gallery Captions.
+			Fixed a Sort ordering bug. (so you might need to change your sort order setting….)
+			Added Optional image/gallery tags as WordPress header meta keywords output option.
+			Added SEO info so images/gallery names can be added to the title tag in the header of page being viewed.
+			Revised Path does not exist error message so only Admin's logged in see the actual path (to reduce possibility of regular users seeing privileged info)
+			Added Option to advance to next image in gallery if image is clicked (last image pops you back to thumbnail view).
+			Added Folder Icon image for galleries in thumbnail view with optional ability to use custom image. (credit for icon image: http://www.fatcow.com/free-icons )
+			Added New Admin Front End editing option if Admin Debug mode is set to "advanced".
+			Added New "Universal Image Text" option (in the Pixgallery Image Captions Admin Page) that allows admins to set text that displays for all images when viewed.
+			Fixed Image View Count code to only increment when image is viewed full size (note: thumbnail pop up/lightbox views are NOT counted though unfortunately)
+			Added "Share This" Plugin Integration option.
+			Fixed a small text issue with the output when non-admins attempt to access the PixGallery admin page.
+			Added exclude by author ability in ComicPress integration (feature request).
+			Added Paypal donate button to PixGallery Admin page (one can hope, can't one? :) )
+			Fixed a "bug" that had the query string disordered when clicking links into a gallery in a post from the index page.
+4.6.2	03/09/2011	Fixed an XSS issue (Thank you goes out to P. Thomas for reporting the issue)
+4.6.1	06/10/2010	Made slight change to "hide thumbnail text" function to show folder names.
+			Reversed default setting for "hide breadcrumb" setting so it's will be displayed by default.
+4.6.0	04/13/10	Admin settings/options page rewritten for better clarity and grouping of settings by function.
+			Added new Setting to help in cases of Index page slowdown when Pixgallery is active. You can turn off Post Scanning for images.
+			Added new language config system using external pixgallery_lang.php file. Will eventually add option for database saving.
+			Added new awsom-customizations folder creation (in uploads) during plugin activation so upgrades to the plugin do not overwrite changes already made to language file or the css file.
+			Fixed a bug with the next/previous links for archive traversal. also corrected to display when extra nave bars setting is active.
+			Added new option to hide/display the breadcrumb for images/galleries.
+			Added new Pixgallery gallery code--use [pixgallery="/myfolder/"][/pixgallery] from now on (old codes will still work though).
+			
+4.5.10	08/07/09	Oopsie, missed some CSS and JS file changes to support new plugin folder name change in .8 release, fixed.
+4.5.9	08/06/09	Bug fix for the path to editing Image Captions when using the Visual Editor. (VE didn't load properly for some browsers)
+4.5.8	07/23/09	Updated plugin for automatic plugin install compatibility.
+
+4.5.7 08/21/08	- Fixed bug in selection of Watermark style.
+		- Updated plugin to work with new WordPress 2.6 path variables.
+		- Fixed long term bug that populated the top level breadcrumb link incorrectly. (hurray!)
+		- Fixed IPTC data pass by reference issue.
+		- Changed the Admin Path to the Manage Galleries area for WordPress 2.7 compatibility. Now it's in the Theme section (Not best choice, but it works).
+4.5.6 07/03/08	- Added in IPTC data display function. 
+		- Fixed minor bug related to misplaced end table tag in single image view page when using javascript effects and thumbnail pagination. (Thanks to R. Kinney for pointing this out)
+		- Added removal of title to admin option "display image captions".
+		- Fixed Image Caption Custom name in breadcrumb to correctly use new system for captions.
+4.5.5 06/10/08	- Added in dedicated Visual Editor (tinyMCE) to eliminate issues using the built in WordPress editor.
+		- Fixed Fancy Permalink "index.php" injection issue.
+4.5.4 05/11/08	- Fixed Pagination code and added in new limit number of links function, also "first" and "last" links.
+		- Added new function to support 3rd party image effects (ligthbox, etc) and disable built in effects.
+		- Added View Count function for images selectable for display by admin.
+		- Added in new PxgSubGaleryImage CSS entry to help differentiate subfolder images in the thumbnail view when title text is turned off.
+		- Added new Admin area links to Pixgallery Video/Text tutorials at AWSOM.org.
+4.5.3 03/18/08	- Updated plugin to be compatible with Wordpress 2.5 (fixed table install issue)
+		- Changed default setting for Image Captions to "on".
+4.5.2 02/29/08  - Added fix to display preexisting comments when in individual comment mode--comments are shown at root gallery level.
+		- Added in new Debig/Admin mode to allow for debugging of issues and making certain Admin level actions easier.
+		- Fixed a bug in regard to how the exif reader class was loaded (thanks Alpicola for the report)
+		- Adjusted the spacing on the Options page (options list growing a bit long :) )
+4.5.1 02/21/08	- Added in EXIF data display option. (phpExifReader library by vinayRas Infotech copyright 2004)
+		- Fixed Bug in image captions edit mode that zeroed out numerical sort option input.
+4.5.0 02/13/08	- Added in Code to Fix IIS Permalinks Issue.
+		- Added in Image Path for image captions to correct for incorrect caption display when images with the same name exist in different folders.
+		- Added in Sort by numerical order function for images and subgalleries.
+		- Added in new "Return to Image Page" function when editing captions using the "Edit This Caption" link.
+		- Added in Legacy Mode setting for upgraders to utilize until they upgrade their captions to the new system.
+		- Added in Pagination Direct Links so allow the user to go directly to any page of a paginated gallery.
+		- Added in Edit/Add Gallery Caption links when logged into site as admin
+		- Added edit and delete links in "show all captions/galleries" to allow quicker workflow.
+		- Updated information in different areas of the admin pages to make certain options more clear.
+		- Added in Individual Comments setting for images and galleries.
+		- Updated upgrader code
+		- Added new option to have watermark image be either png or gif (to allow easier transparent watermarking).
+		- Added Delete function to cleanup comment tracking database table if comment is deleted from Wordpress.
+		- Added in reset cache folder function.
+4.4.5 01/15/08  - Fixed a bug that allowed the pxggalleryimage file to be navigated to using the next button of the single image view page in some cases.
+		- Added in Footer Credit code to show only one credit if multiple AWSOM Footer credits are enabled.
+		- Added in new option for navigation area under images.
+		- Added ability to create Custom CSS for the entire gallery area through the Admin interface.
+4.4.4 12/13/07	- Fixed a bug related to sub-folder thumbnails missing their name in a post if Popup on Thumbnails was enabled.
+		- Added in specific linked help files for certain settings in the Pixgallery admin settings area.
+		- Altered Global Resize error statement to make it more clear what is occuring to cause the error.
+		- Fixed a bug that didn't show pagination in posts on single.php page.
+		- Added in Version 1.0 of the Watermarking/File Obfuscation system.
+		- Added AWSOM.org footer support link option in admin options area.
+		- Added in Absolute Linking support for cases where Wordpress is in a subfolder and Fancy Permalinks are being used.
+		- Added in option to force new window for full size images from thumbnail or large thumbnail.
+		- Fixed Typo in Admin interface related to successful gallery creation.
+		- Added in preliminary fix for Javascript collision issue with some other plugins.
+		- Updated Admin area text to make certain options a bit more understandable.
+		- Added in ability to limit number of thumbnails that appear on the index page in a post
+		- Moved archive and image navigation links to center above images.
+		- Added in ability to have custom folder image in thumbnail view by adding a file called "pxggalleryimage" to a folder.
+		- Added "see Entire Gallery" link under posts if using the limit thumbnail on index page option.
+		- NM submitted Fix: Updated engine to support unique thumbnails using MD5 hashing.
+		- Added ability to remove titles and link text under thumbnails with admin options setting.
+		- Changed caption/name/newslink under single view image line to use p instead of br to fix some theme issues not showing the line under the image.
+4.4.3 08/26/07	- Fixed a php issue related to HTML short tags to ensure future compatibility with some php setups.
+4.4.2 06/26/07	- Added Visual Editor Function for Image and Gallery Captions with admin switch on/off.
+4.4.1 06/13/07	- Fixed a minor bug that didn't correctly make the automatic cache folder appear if the user had custom permalinks enabled.
+4.4.0 06/12/07	- Added Option to turn sidebar display off when viewing large thumbnail image page.
+		- Added database updater function.
+		- Added cache directory creator for new installs if Wordpress uploads directory exists.
+		- Added Create Default cache folder function in options area for upgraders from previous versions.
+		- Updated Pixgallery engine code to Nathan Moinvaziri .3.6 version.
+		- Adjusted default new install options to more reflect expected usage of AWSOM Pixgallery.
+		- Changed admin plugin listing to now refer to AWSOM version numbers and project location.
+		- Changed Plugin folder name from pixgallery to awsompixgallery to match general AWSOM plugin naming conventions.
+		- Added (Folder) designation for folders in Thumbnail view.
+		- Added initial tagging support in manage image captions and galleries menus (not usable by viewers, but tags can be added now for eventual tagging searches)
+		- Added Custom Name support for images.
+		- Added Custom Name support for Main Gallery in Breadcrumb
+		- Redid the Captions save/edit/delete function to support future development.
+		- Added Gallery management area.
+		- Fixed IE sidebar centering bug.
+		- Added Default Gallery creator function for new installs.
+		- Added Default Gallery creator function for upgraders.
+		- Due to a situation where Wordpress does not accept 2 plugin admin areas under same heading--moved image caption admin area to "Write",
+		- Added code generator function in Gallery management area for the code needed to be added to post to have the gallery appear.
+		- Fixed image caption bug related to picking image captions incorrectly based on their case.
+		- Added basic plugin security to prevent non-admin users from changing admin area settings.
+		- Fixed bug in relation to incorrect user input parsing leading to missing captions.
+4.3.4 05/01/07  - Fixed minor bug with Options area, options weren't displayed in proper order.
+4.3.3 04/24/07  - Initial Public Release of Modded Plugin.		

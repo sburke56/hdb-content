@@ -1,0 +1,9 @@
+AWSOM Pixgallery Sort Order help
+
+This setting determines how Pixgallery will sort and display your images in galleries. In most cases this setting will work exactly
+as described. However some servers will have different ways of determining file order and may cause this setting to appear to work
+incorrectly. If you have set this setting and are not getting the sort order you would like try reversing the setting to the reverse
+of it's current setting. This is especially true in the case of the "last file"/"first file" added settings. This should correct
+the display issue.
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

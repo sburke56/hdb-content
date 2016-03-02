@@ -1,0 +1,10 @@
+AWSOM Pixgallery Absolute Lining setting help
+
+The Pixgallery Absolute Linking setting is designed to compensate for a situation where images or thumbnails do not appear in Pixgallery when
+the Wordpress install folder is in a sub-folder on a server set to use Fancy Permalinks. Do not use this setting unless both conditions
+above are true for your set up, otherwise you may induce a situation where images and thumbnails do not properly appear.
+
+If turning on this setting does not correct your issue you may have a problem with your cache folder setting. Please see the
+help file for that setting for options and techniques to correct your issue.
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.
