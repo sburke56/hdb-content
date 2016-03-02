@@ -1,0 +1,10 @@
+AWSOM Pixgallery News Interlink setting help
+
+This setting is a special support setting to allow Wordpress admins who are using the ComicPress theme (or want to name their
+images in the same fashion) to have Pixgallery create automatic links to any news post that appeared on the same day as the
+title date of the image being displayed. If your image is called "2007-05-04.jpg" then any news posts done on that date would
+be displayed in series under the full image view of that image.
+
+You can exclude displaying certain authors by adding their WordPress user number into the next box.
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

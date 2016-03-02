@@ -1,0 +1,11 @@
+AWSOM Pixgallery Post Scanning setting help
+
+The Pixgallery Post Scanning setting is designed to compensate for a situation where activation of Pixgallery 
+significantly slows down the loading of the index page of WordPress. In some cases (especially with some 
+advertising plugins) Pixgallery will attempt to scan the images of a post and fail (because the images aren't
+ hosted on your server or it doesn't have permission to open the image)--thereby slowing down the entire site.
+ Turn this setting to Yes to stop Pixgallery from scanning Posts which should stop this issue.
+
+Note that the Global resize function will not be able to then work within Posts, but will still work within Pages.
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

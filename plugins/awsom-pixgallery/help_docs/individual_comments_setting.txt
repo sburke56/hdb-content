@@ -1,0 +1,15 @@
+AWSOM Pixgallery Individual Comments setting help
+
+The Individual Comments setting is a special function that allows the admin to designate if comments are assigned
+to specific images and galleries within a Pixgallery Gallery. If this setting is turned on comments left on a page/post
+will be attached to the specific gallery or image being viewed when the comment is entered, if this setting is turned off all images and
+galleries will display all comments left for that page/post regardless of what image or gallery was being viewed
+when the comment was added.
+
+The admin can still disable comments on a particular page or post by using the regular Wordpress allow/disallow comments function.
+
+The best part about this comment system is any normal Wordpress anti-spam comment system *should* work with this system unchanged.
+
+NOTE: Use of this system is only supported on Wordpress versions 2.0.5 and above.
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

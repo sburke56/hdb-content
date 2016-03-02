@@ -1,0 +1,13 @@
+AWSOM Pixgallery Global Image Reduce setting help
+
+This setting is a special function that allows Wordpress admins to globally reduce the image size of images outside of defined
+Pixgallery galleries. This would allow for uploading large format images at high resolution without the need to process the images
+first for web usage. This can speed up how fast you get your images up on your site. However, for this setting to work
+properly you can not use the built in Wordpress image upload function for posts or pages unless you also manually go in and set the folders
+that are created in your wp-content/uploads folder to all be 777 permissions. If you do not do this you will receive an error
+statement: Your Image Folder is not Set to the 777 permissions needed to allow Global Resize function to operate
+Please be aware that the use of this setting WILL alter your original image files on the server by rewriting them to a smaller size that you
+designate. 
+
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

@@ -1,0 +1,158 @@
+
+<!-- Move this file to wp-content/uploads/awsom-customizations if you make changes so it does not get deleted during auto-upgrades -->
+
+.PxgGlobalImage { 
+	padding: 5px; 
+	border: 1px solid #cbdaeb; 
+	background-image: url('/wp-content/plugins/awsompix-gallery/images/background.gif');
+	} 
+.PxgImage { 
+	padding: 5px; 
+	border: 1px solid #cbdaeb; 
+	background-image: url('/wp-content/plugins/awsompix-gallery/images/background.gif');
+	}
+.PxgSubGaleryImage {
+	padding: 5px; 
+	border: 2px solid #0daa18; 
+	background-image: url('/wp-content/plugins/awsompix-gallery/images/background.gif');
+	}
+
+#PxgPopupClose { 
+	float: right;
+	font-family: verdana;
+	font-size: 10pt;
+	color: white; 
+	border: 0px solid white;
+	}
+
+#PxgPopupHeader { 
+	cursor: pointer; 
+	width: 100%;
+	margin: 0px;
+	height: 20px;
+}
+
+#PxgPopupLayer { 
+	position: absolute;
+	background-color: white; 
+	background-image: url('/wp-content/plugins/awsom-pixgallery/images/background.gif');
+	padding: 5px; 
+	padding-top: 7px;
+	margin: 0px; 
+	vertical-align: middle;
+	border: 1px solid #90c0e8;
+	text-align: center;
+	}
+
+#PxgPopupTitle { 
+	float: left;
+	font-family: verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+	}
+
+#PxgPopupImageLoading {
+	float: left;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	height: 19px;
+	width: 220px;
+	}
+
+#PxgPopupImage {
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #c3def4;
+	border-left: 1px solid #c3def4;
+	border-right: 1px solid #b4c7d6;
+	border-bottom: 1px solid #b4c7d6;
+	}
+
+.PxgContentInfo {
+	font-family: arial; 
+	font-size: 5pt; 
+	text-transform: uppercase;
+	color: gray;
+	}
+
+.PxgPopupDrag { 
+	position: absolute; 
+	}
+
+.PxgMasterTable {
+	margin-left:auto;
+	margin-right:auto;
+	/*text-align: left;
+	float: left;*/
+	}
+
+.PxgMasterTable td {
+	float: center;
+	}
+
+.PxgGalleryTable {
+	border: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: left;
+	float: left;
+	}
+
+.PxgGalleryTable tr {
+	margin: 0px;
+	padding: 0px;
+	}
+
+.PxgGalleryTable td {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	}
+
+.PxgGalleryInnerTable {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	}
+
+.PxgGalleryInnerTable td {
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+	}
+
+.PxgPageTable {
+	border: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: left;
+	float: left;
+	}
+
+.PxgPageTable td {
+	padding: 0px;
+	width: 33%;
+	}
+
+.PxgPageTable td a {
+	}
+#awsomfootercredit {
+	text-align: center;
+	font-size: 10px;
+	}
+.PxgPaginationLink {
+	text-align: center;
+	font-size: 14px;
+	border: 2px solid #000000;
+	padding: 2px;
+	}
+.PxgPaginationCurrentLink {
+	text-align: center;
+	font-size: 18px;
+	padding: 4px;
+	text-decoration:none;
+	}

@@ -1,0 +1,9 @@
+AWSOM Pixgallery Debug Mode setting help
+
+This setting turns on the Debug mode for Pixgallery, that will display more information on the Gallery page in order to help resolve
+issues or make certain functions easier. One specific thing that this enables is the display of the sort order number for images
+and galleries on the thumbnail page so you can see and set images into order easier when using the numerical sort option.
+
+If you have problems with your set up you may need to transmit some of this information to Harknell to help in resolution of your issue.
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

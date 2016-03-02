@@ -1,0 +1,23 @@
+AWSOM Pixgallery Hide Sidebar setting help
+
+This setting is designed to automatically hide the display of the contents of your Wordpress theme's sidebar.php file from view in order
+to allow more room in your theme to display full size images. It uses the most common Wordpress designation for sidebar areas.
+If your sidebar is still displayed on full size image pages after enabling this setting, your theme may be using a non-stanadard name
+to call your sidebar for display.
+
+If you know the name that is being used to display your sidebar you can manually change the code to add this in to allow this
+function to work. In the file pixgallery.php find the following code:
+
+// ***AWSOM mod for hide sidebar Option****//
+if ($PixGallery_HideSidebar == 1) {
+$Output	.= "<style>#sidebar { display: none; visibility: hidden; }</style>";
+}
+else{
+$Output	.= "<style>#sidebar ul li { text-align: left; }</style>";
+}
+// ****end mod*** //
+
+and substitute the CSS name fro your sidebar for the text following the # sign (for example if your sidebar is called "sidearea" change 
+#sidebar in the code above to say #sidearea. This will then allow the option to work correctly with your setup.
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

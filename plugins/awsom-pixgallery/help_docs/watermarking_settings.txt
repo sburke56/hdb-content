@@ -1,0 +1,21 @@
+AWSOM Pixgallery Watermarking Version 1.0 settings help
+
+This series of settings is designed to allow automatic watermaking of your images for display in Pixgallery galleries. Please note that
+your original images are NOT altered by this function. New images are created by this function and placed in your cache folder.
+The two word overlay settings are affected by the color text setting, which determines the overlay text color. The difference between
+the two settings is the Image Word Overlay adds in a white background color behind your text to make it more easily seen if needed.
+The Custom Image Watermark setting is a special setting that allows you to supply an image file of your own to use as your
+watermark. This file needs to be called "watermark.png" or "watermark.gif" and must be placed in the awsompixgallery/image folder. Example images
+are supplied with the plugin, replace these images with your own.
+
+To switch between Watermark settings you MUST delete all of the images in your cache folder. This is the folder designated in the 
+Pixgallery admin settings area and also holds your thumbnail images. Once you have deleted the images in that folder Pixgallery
+will automatically create your new Watermarked images and thumbnails for your galleries upon the next viewing of the gallery.
+
+If your watermarked images do not display correctly first make sure that you have refreshed your webpage view by forcing your
+web browser to reload the page fully. This is typically done by holding the shift key when clicking the reload button in your
+browser. If you still can't see your watermarked images, or no image appears, you may need to adjust your cache folder setting, please
+see the help file for that setting for more information on this.
+
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.

@@ -1,0 +1,90 @@
+PixGallery Change Log
+Written by Nathan Moinvaziri
+
+0.3.7 05/16/08	- Bug Fix to fix page loading issue with Pixgallery Global Image function.
+0.3.6 02/25/06  - Too many changes to mention them all
+		- Added specialized per post configuration				
+0.3.5 11/01/06	- Fixed issue with url building when query string present
+		- Added paging support for galleries with multiple rows
+		- Fixed problem with settings not loading and saving properly
+		- Fixed issues with folders with-in folders
+		- Fixed issue with empty directories not showing up
+		- Added possibility for image descriptions
+0.3.4 10/28/06  - Fixed javascript scrolling bug
+		- Centered main table
+0.3.3 10/27/06	- Fixed background shadow height bug in IE7
+		- Removed closing of popup layer when scrolling
+0.3.2 10/26/06	- Fixed a problem with path resolution on unix servers
+0.3.1 10/20/06  - Fixed problems with reducing original images
+		- Fixed bug with invalid images or bad permissions
+		- Fixed errors being displayed for directories with no images
+0.2.9 08/31/06	- Fixed error reporting bug that image is not writable
+		- Fixed problem with smiley faces 
+		- Fixed bug in IE with slow scroll speed
+0.2.8 08/29/06	- Fixed bug in realpath when writing cached thumbnails
+0.2.7 08/27/06	- Added javascript popup layer effects
+		- Added javascript popup layer image loading indicator
+		- Added javascript popup layer background shadow
+		- Added programmically set onclick for a tags with javascript
+		- Added rel as PixGallery to each a tag
+		- Added title attribute to each a tag 
+		- Added use of realpath to determine server paths
+		- Added images directory
+		- Moved pixgallery to its own folder within wp-contents/plugins
+		- Removed php onclick output
+		- Removed determination of server paths function
+		- Removed automatic version checking
+0.2.6 05/10/06	- Fixed support for smiley face images in wordpress
+0.2.5 05/03/06	- Added image file modification check for caching
+0.2.4 05/02/06	- Fixed bug in image gallery for images that are not found
+		- Fixed photo gallery urls for those who are not using permalinks
+0.2.3 04/19/06	- Added photo details
+		- Added css stylesheet
+		- Added image alt tags
+		- Added path attribute for pixgallery tag to specify photos path
+		- Removed photos path in administration interface
+		- Improved photo browsing
+		- Improved search engine friendliness
+0.2.2 04/01/06	- Fixed wordpress comment disablity with firefox
+0.2.1 03/30/06	- Fixed image xml compatibility
+		- Fixed bug with quotes in image alt tag
+		- Fixed popup layer html
+0.2.0 03/22/06	- Fixed resizing of images not needed resizing
+		- Fixed resizing of non-jpeg images
+0.1.9 03/11/06	- Fixed bugs in displaying of collections
+		- Fixed bug with allow_url_fopen turned off
+		- Fixed version number
+0.1.8 02/26/06	- Fixed safe mode bug with set_time_limit
+		- Fixed loading options on inital install bug
+0.1.7 02/16/06	- Added drag and drop support for popup layer
+		- Added ability to specify maximum height for thumbnail images
+		- Changed the way paging works
+		- No longer supports movies as links
+0.1.6 02/15/06	- Added more error notifications if plugin is not properly setup
+		- Added automatic determination of the url & server paths
+		- Added layer popup compatibility with Mozilla/FireFox
+		- Added javascript source file and renamed plugin file to pixgallery
+		- Added nopopup option for <img> tags
+		- Changed/rearranged administration panel
+		- Fixed bug with spaces in image file names
+		- Fixed couple html bugs
+0.1.5 02/12/06	- Added PixGallery_Header for script and style sheet insertion
+		- Added checking from the internet for the latest version of plugin
+		- Fixed image style
+		- Fixed a couple other bugs
+0.1.4 02/11/06	- Added administration panel descriptions
+		- Changed popup window setting
+		- Fixed image resize bug not returning thumbnail image path
+0.1.3 02/10/06  - Added administration panel
+		- Added popup layer functionality
+		- Added paging functionality
+		- Added more commenting
+		- Changed tag from picgallery to pixgallery
+		- Changed plugin name to 'PixGallery'
+		- Fixed some bugs
+0.1.2 02/08/06	- Added GIF & PNG type to photo gallery allowable image types
+		- Added download option for movies located in the gallery directories
+		- Fixed a couple of other bugs
+0.1.1 02/01/06	- Added Previous and Next Photo links
+		- Added the ability to reduce the original image sizes
+0.1.0 01/21/06 	- Initial Release

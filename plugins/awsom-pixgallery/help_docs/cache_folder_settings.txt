@@ -1,0 +1,17 @@
+AWSOM Pixgallery cache folder setting help
+
+This setting determines the location on your server that Pixgallery will use to create the thumbnails and watermarked versions of your images. 
+By default Pixgallery will try to create a folder in your wp-content/uploads folder. This is where Wordpress normally stores images uploaded
+through the posts or page writing system. As such it's a good location to use to allow for portability of your site should you ever need to move it.
+I strongly suggest you resist the urge to move your wp-content folder, it will only cause problems.
+
+The default install makes the folder cache setting as: wp-content/uploads/cache
+In most cases this should work fine. If, however, you have issues where thumbnails or watermarked images do not appear properly you may need
+to adjust this setting. Typically you may need to add a leading or trailing / symbol to the setting. So /wp-content/uploads/cache or
+wp-content/uploads/cache/ or the full /wp-content/uploads/cache/ are three alternative that can be tried to resolve your issue.
+
+If none of the above settings change help your situation you may need to turn on "Absolute linking" to resolve your issue. This is a
+setting in the Pixgallery admin area that turns the linking of images into absolute links, as opposed to the normal relative links used by
+Wordpress. Another possibility is that your original Pixgallery gallery code placed in your post or page is incorrect.
+
+If none of these settings or techniques resolves your issue please go to http://www.awsom.org or http://www.harknell.com for more support.
